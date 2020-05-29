@@ -11,5 +11,5 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens:  
         message: |
-          Hello @${{ github.actor }}, thank you for your interest in our work! 
+          Hello @${{ github.actor }}, thank you for your interest in our work! ${{ github.actor }}
         allow-repeats: true
